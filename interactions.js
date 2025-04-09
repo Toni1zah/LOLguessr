@@ -80,10 +80,10 @@ function CheckName() {
     // CREATE ELEMENT
 
   if (correcttxtExists === false) {
-      console.log("CreatedCorrectElement")
+      console.log("element created")
       correcttxtExists = true;
       correcttxt = document.createElement('h3');
-      document.body.appendChild(correcttxt);
+      document.body.appendChild(correcttxt)
   }
 
   if (Correct === false) {
