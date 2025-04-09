@@ -69,7 +69,7 @@ window.onload = function () {
 
 let Correct = false;
 let correcttxtExists = false;
-let correcttxt 
+let correcttxt = null;
 
 function CheckName() {
   const inputtext = document.getElementById("ChampionInput").value;
