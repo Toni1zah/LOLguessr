@@ -79,7 +79,7 @@ function CheckName() {
       console.log("CreatedCorrectElement")
       correcttxtExists = true;
       correcttxt = document.createElement('h3');
-      document.body.AppendChild(correcttxt);
+      document.body.appendChild(correcttxt);
   }
 
   if (Correct === false) {
