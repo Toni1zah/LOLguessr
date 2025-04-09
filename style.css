@@ -43,6 +43,12 @@ h1 {color: white; text-shadow: -3px -3px 0 #000, 3px -3px 0 #000,
 
 input {border-radius: 20px; margin-bottom: 3%; font-size: xx-large;}
 
+#Correct {color:green ;text-shadow: -3px -3px 0 #000, 3px -3px 0 #000,
+    -3px 3px 0 #000, 3px 3px 0 #000; color: white; font-size: 90px; text-align: center;}
+
+#Wrong {color:red ;text-shadow: -3px -3px 0 #000, 3px -3px 0 #000,
+    -3px 3px 0 #000, 3px 3px 0 #000; color: white; font-size: 90px; text-align: center;}
+
 .copyright {
     position: fixed;
     bottom: 0;  
