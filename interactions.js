@@ -68,17 +68,33 @@ window.onload = function () {
 };
 
 let Correct = false;
+let correcttxtExists = false;
+let correcttxt 
 
 function CheckName() {
   const inputtext = document.getElementById("ChampionInput").value;
   const btn = document.getElementById("Btn")
 
+  if (correcttxtExists === false) {
+      correcttxtExists = true;
+      correcttxt = document.CreateElement('h3');
+      document.body.AppendChild(correcttxt);
+  }
+
   if (Correct === false) {
     if (inputtext === chosenChampion) {
       console.log("Correct!");
       Correct = true;
+
+      correcttxt.innerHTML = "Correct!"
+      correcttxt.id = "Correct"
+        
       btn.innerHTML = "Play again"
     } else {
+
+      correcttxt.innerHTML = "Wrong."
+      correcttxt.id = "Wrong"
+        
       console.log("Wrong.");
     }
   } else {
