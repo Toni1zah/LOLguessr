@@ -77,7 +77,7 @@ function CheckName() {
 
   if (correcttxtExists === false) {
       correcttxtExists = true;
-      correcttxt = document.CreateElement('h3');
+      correcttxt = document.createElement('h3');
       document.body.AppendChild(correcttxt);
   }
 
