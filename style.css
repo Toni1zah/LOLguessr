@@ -43,9 +43,18 @@ h1 {color: white; text-shadow: -3px -3px 0 #000, 3px -3px 0 #000,
 
 input {border-radius: 20px; margin-bottom: 3%; font-size: xx-large;}
 
-#Wrong {color: red;}
+#Wrong {
+color: red;
+   font-size:50px; 
+   font-family: "Courier New", monospace;
+}
 
-#Correct {color: greenyellow;}
+#Correct {
+  color: greenyellow;
+  font-size: 50px;
+  font-family: "Courier New", monospace;
+}
+
 
 .copyright {
     position: fixed;
