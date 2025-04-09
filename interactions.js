@@ -76,6 +76,7 @@ function CheckName() {
   const btn = document.getElementById("Btn")
 
   if (correcttxtExists === false) {
+      console.log("CreatedCorrectElement")
       correcttxtExists = true;
       correcttxt = document.createElement('h3');
       document.body.AppendChild(correcttxt);
