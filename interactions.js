@@ -77,6 +77,8 @@ function CheckName() {
   const inputtext = document.getElementById("ChampionInput").value;
   const btn = document.getElementById("Btn")
 
+    // CREATE ELEMENT
+
   if (correcttxtExists === false) {
       console.log("CreatedCorrectElement")
       correcttxtExists = true;
