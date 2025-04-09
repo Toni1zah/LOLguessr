@@ -71,6 +71,8 @@ let Correct = false;
 let correcttxtExists = false;
 let correcttxt = null;
 
+// CHECK NAMEEEEEEEEEEE
+
 function CheckName() {
   const inputtext = document.getElementById("ChampionInput").value;
   const btn = document.getElementById("Btn")
