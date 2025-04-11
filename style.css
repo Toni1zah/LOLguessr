@@ -49,6 +49,8 @@ color: red;
    font-family: "Courier New", monospace;
 }
 
+h3 {color:white;}
+
 #Correct {
   color: greenyellow;
   font-size: 50px;
